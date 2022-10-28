@@ -3612,7 +3612,7 @@ transition: transform .8s cubic-bezier(.5,.2,.2,.8),-webkit-transform .8s cubic-
 .accordion-style-01 .panel  {background: transparent; box-shadow: none; margin-top: 0 !important}
 .accordion-style-01.panel-group .panel-heading  {border: 0px; border-bottom: 1px solid #e4e4e4;}
 .accordion-style-01 .panel .panel-heading {padding: 16px 0;background-color: transparent;}
-.accordion-style-01 .panel-title {font-size: 16px; position: relative;font-family: 'Roboto', sans-serif;padding-right: 30px;}
+.accordion-style-01 .panel-title {font-size: 30px; position: relative;font-family: 'Roboto', sans-serif;padding-right: 30px;}
 .accordion-style-01 .panel-title span.pull-right { position: absolute; right: 0;}
 .accordion-style-01 .panel-heading i {font-size: 16px; color: #212121}
 .accordion-style-01.panel-group .panel-heading+.panel-collapse>.list-group, .accordion-style-01.panel-group .panel-heading+.panel-collapse>.panel-body{border-top:0; padding: 25px 0; background-color: transparent}
