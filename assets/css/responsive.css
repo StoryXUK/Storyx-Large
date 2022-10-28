@@ -1,4 +1,8 @@
 @media (max-width:1199px){
+	.padding-left {padding-left: 0px;}
+}
+
+@media (max-width:1199px){
 	/* heights */
 	.md-height-1px {height: 1px}
 	.md-height-2px {height: 2px}
