@@ -94,7 +94,7 @@ video {background-size: cover;display: table-cell;vertical-align: middle;width: 
 iframe, embed, object {max-width: 100%;}
 .wrapper {position: relative;z-index: 20;overflow-x: hidden;}
 .center-section {margin: auto;}
-.padding-left {padding-left: 175px;}
+.padding-left {padding-left: 125px;}
 .align-left {text-align: left;}
 
 /* Typography */
