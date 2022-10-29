@@ -500,7 +500,7 @@
 
 
 @media (min-width:767px) and (max-width:991px){
-	.slider-bg .hero-text h1, .hero-text h1, .error-cover-bg h1, .coming-cover-bg h1 {font-size: 70px;}
+	.slider-bg .hero-text h1, .hero-text h1, .error-cover-bg h1, .coming-cover-bg h1 {font-size: 18px;}
 	.feature-box, .counter, .copy-right, .post{margin-bottom:20px;}
 	.embed-container, .contact-us h3{margin-top:20px;}
 	.copy-right, .footer-copyright ul.social-media{text-align:center;}
