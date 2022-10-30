@@ -613,7 +613,7 @@
 		lifeLike:true,
 		startDelete:false,
 		loop:true,
-    strings: ['thinking', 'color', 'photography', 'art', 'typography']
+    strings: ['NHS', 'Fibodo', 'England Golf', 'Butterfly Conservation', 'Sussex Spiced']
   });
 
 	$('.type-it-2').typeIt({
@@ -623,7 +623,7 @@
 		lifeLike:true,
 		startDelete:false,
 		loop:true,
-    strings: ['design', 'development', 'apps', 'animation', 'marketing']
+    strings: ['NHS', 'Fibodo', 'England Golf', 'Butterfly Conservation', 'Sussex Spiced']
   });
 
   /* ===== FIT VIDEOS ===== */
