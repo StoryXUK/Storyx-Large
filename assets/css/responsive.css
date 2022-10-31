@@ -4,6 +4,7 @@
 
 @media (max-width:1199px){
 	.padding-left {padding-left: 0px;}
+	.move-up {position: absolute; top: 0px}
 }
 
 @media (max-width:1199px){
