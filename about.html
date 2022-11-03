@@ -53,21 +53,27 @@
 
     <!--== Header Start ==-->
     <nav class="navbar navbar-default bootsnav on no-full">
-
+      <!--== Start Top Search ==-->
+      <div class="fullscreen-search-overlay" id="search-overlay"> <a href="#" class="fullscreen-close"
+          id="fullscreen-close-button"><i class="icofont icofont-close"></i></a>
+        <div id="fullscreen-search-wrapper">
+          <form method="get" id="fullscreen-searchform">
+            <input type="text" value="" placeholder="Type and hit Enter..." id="fullscreen-search-input"
+              class="search-bar-top">
+            <i class="fullscreen-search-icon icofont icofont-search">
+              <input value="" type="submit">
+            </i>
+          </form>
+        </div>
+      </div>
       <!--== End Top Search ==-->
       <div class="container">
         <!--== Start Atribute Navigation ==-->
         <div class="attr-nav hidden-xs sm-display-none">
           <ul class="social-media-dark social-top">
-            <li><a target="_blank" href="https://www.facebook.com/StoryXuk" class="icofont icofont-social-facebook"></a>
-            </li>
-            <li><a target="_blank" href="https://www.instagram.com/storyxuk/"
-                class="icofont icofont-social-instagram"></a></li>
-            <li><a target="_blank" href="https://twitter.com/StoryX_uk" class="icofont icofont-social-twitter"></a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/company/storyxuk/"
-                class="icofont icofont-social-linkedin"></a></li>
-            <li><a target="_blank" href="https://wa.me/447496156914" class="icofont icofont-social-whatsapp"></a></li>
-
+            <li><a href="#" class="icofont icofont-social-facebook"></a></li>
+            <li><a href="#" class="icofont icofont-social-twitter"></a></li>
+            <li class="search"><a href="#" id="search-button"><i class="icofont icofont-search"></i></a></li>
           </ul>
         </div>
         <!--== End Atribute Navigation ==-->
@@ -84,48 +90,41 @@
         <!--== Collect the nav links, forms, and other content for toggling ==-->
         <div class="collapse navbar-collapse" id="navbar-menu">
           <ul class="nav navbar-nav navbar-right" data-in="fadeIn" data-out="fadeOut">
+            <li class="dropdown megamenu-fw"> <a href="index.html" class="dropdown-toggle"
+                data-toggle="dropdown">Home</a>
+            <li> <a href="about-us.html" class="dropdown-toggle" data-toggle="dropdown">Our
+                Story</a>
+            <li> <a href="work.html" class="dropdown-toggle" data-toggle="dropdown">Our
+                Work</a>
+            <li> <a href="mission.html" class="dropdown-toggle" data-toggle="dropdown">Our
+                Mission</a>
 
-            <li> <a href="about.html">Our Story</a></li>
-            <li> <a href="work.html">Our Work</a></li>
-            <li> <a href="mission.html">Our Mission</a></li>
+              <!--== end row ==-->
+            </li>
           </ul>
-
-
+          </li>
+          </ul>
         </div>
         <!--== /.navbar-collapse ==-->
       </div>
     </nav>
     <!--== Header End ==-->
 
-    <!--== Project Banner Start ==-->
-    <section class="remove-padding cover-bg view-height-100vh"
-      style="background-image: url(assets/images/slides/home-bg-3.jpg);">
-      <!-- <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 remove-padding">
-        </div>
-      </div>
-    </div> -->
-      <div class="hero-text-wrap transparent-bg">
-        <div class="hero-text">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8">
-                <div class="dark-color">
-                  <h2 class="font-400">Our Story</h2>
-                  <h2 class="font-700">Creative & Innovative Digital Agency.</h2>
-                  <h5 class="white-color">Only advertising would take a word most people <br>run from and treat it as a
-                    good thing.</h5>
-
-                </div>
+    <section class="white-bg pt-100 pb-100">
+    <div class="hero-text-wrap transparent-bg">
+      <div class="hero-text">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="dark-color">
+                <h2 class="font-700">Our Story.</h2>
               </div>
-
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!--== Project Banner End ==-->
+    </div>
+  </section>
 
 
 
