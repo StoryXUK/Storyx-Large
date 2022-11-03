@@ -99,6 +99,7 @@ iframe, embed, object {max-width: 100%;}
 .align-left {text-align: left;}
 .move-up {position: absolute; top: -100px}
 
+
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {color: #212121;margin: 20px 0 10px 0;font-style: normal;font-family: 'Montserrat', sans-serif;}
