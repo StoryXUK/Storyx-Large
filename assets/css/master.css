@@ -325,6 +325,8 @@ input.search-bar-top:-moz-placeholder { color: #fff!important; }
 .min-width-600px {min-height: 600px}
 .min-width-700px {min-height: 700px}
 
+.min-width-300 {min-width: 300px;}
+
 /* View Width */
 
 .view-width-100vh{width: 100vh;}
