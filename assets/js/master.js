@@ -15,6 +15,10 @@
 
 	jQuery(document).ready(function ($) {
 
+
+
+	
+
 		/* ===== jQuery Varibles ===== */
 
 			mainSlider();
@@ -43,8 +47,8 @@
 
 		/* ===== PRELOADER  ===== */
 
-		      $("#loader-overlay").delay(500).fadeOut();
-	        $(".loader").delay(1000).fadeOut("slow");
+		      $("#loader-overlay").delay(2000).fadeOut();
+	        $(".loader").delay(5000).fadeOut("slow");
 
 	        $(window).trigger("scroll");
 	        $(window).trigger("resize");
