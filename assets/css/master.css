@@ -1,12 +1,4 @@
 /*
-Template: Torneo Creative Agency
-Author: Incognito Themes
-Version: 1.0
-Designed and Development by: Incognito Themes
-*/
-
-
-/*
 ====================================
 [ CSS TABLE CONTENT ]
 ------------------------------------
@@ -87,7 +79,7 @@ Designed and Development by: Incognito Themes
 *, :after, :before {box-sizing: border-box;}
 
 html, body{position: relative;height: 100%;}
-body {color: #888;background: #ffffff; font-size:14px;font-family: 'Roboto', sans-serif;font-weight: 400;}
+body {color: #888;background: #ffffff; font-size:16px; font-family: 'Roboto', sans-serif;}
 iframe {border: 0;}
 video {background-size: cover;display: table-cell;vertical-align: middle;width: 100%;}
 .html5-video {background-color: #000; height: auto; left: 50%; min-height: 100%; min-width: 100%; position: absolute; top: 50%; -ms-transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%);  width: auto; z-index: -3; }
@@ -105,8 +97,8 @@ iframe, embed, object {max-width: 100%;}
 
 /* Typography */
 
-h1, h2, h3, h4, h5, h6 {color: #212121;margin: 20px 0 10px 0;font-style: normal;font-family: 'Montserrat', sans-serif;}
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {line-height: 1.5em;}
+h1, h2, h3, h4, h5, h6 {color: #212121;margin: 20px 0 10px 0;font-style: normal;font-family: 'Roboto', sans-serif;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {line-height: 1em;}
 h1 { font-size: 58px;}
 h2 { font-size: 40px;}
 h3 { font-size: 26px;}
@@ -117,7 +109,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #212121;}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5:hover a, h6 a:hover { color: #1d5ade;}
 p a {}
 p a:hover {color: #1d5ade;}
-p {letter-spacing: normal;line-height: 24px;color: #888;font-weight:400;font-family: 'Roboto', sans-serif;}
+p {letter-spacing: normal;line-height: 24px;color: #888;font-weight:300;font-family: 'Roboto', sans-serif;}
 a {text-decoration: none;color:#212121;}
 a:hover, a:focus, a:active {outline: none;text-decoration: underline;color:#1d5ade;}
 ul {list-style: disc;}
@@ -132,9 +124,9 @@ blockquote p {font-size: 18px;line-height: 30px;margin-bottom: 17px !important;f
 .outline-alert {background-color: transparent!important;}
 strong { color: #414141; }
 hr{border:0;height: 1px;width:100%;margin:20px auto;}
-hr.left-line{margin:20px 0 20px 0;width:80px;}
+hr.left-line{margin:20px 0 20px 0;width:100px;}
 hr.center_line{width:80px;}
-hr.bold-line{height:3px;}
+hr.bold-line{height:1px;}
 .text-decoration-underline{text-decoration: underline;}
 .text-decoration-none{text-decoration: none;}
 .line-trough{text-decoration: line-through;}
@@ -3626,7 +3618,7 @@ transition: transform .8s cubic-bezier(.5,.2,.2,.8),-webkit-transform .8s cubic-
 .accordion-style-01 .panel  {background: transparent; box-shadow: none; margin-top: 0 !important}
 .accordion-style-01.panel-group .panel-heading  {border: 0px; border-bottom: 1px solid #e4e4e4;}
 .accordion-style-01 .panel .panel-heading {padding: 16px 0;background-color: transparent;}
-.accordion-style-01 .panel-title {font-size: 30px; position: relative;font-family: 'Roboto', sans-serif;padding-right: 30px;}
+.accordion-style-01 .panel-title {font-size: 30px; font-weight: 200; position: relative;font-family: 'Roboto', sans-serif;padding-right: 30px;}
 .accordion-style-01 .panel-title span.pull-right { position: absolute; right: 0;}
 .accordion-style-01 .panel-heading i {font-size: 16px; color: #212121}
 .accordion-style-01.panel-group .panel-heading+.panel-collapse>.list-group, .accordion-style-01.panel-group .panel-heading+.panel-collapse>.panel-body{border-top:0; padding: 25px 0; background-color: transparent}
