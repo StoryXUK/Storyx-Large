@@ -1,5 +1,6 @@
 @media (min-width:1199px){
 .mobile-only {display: none;}
+.pt-100-mb {padding-top: 100px;}
 }
 
 @media (max-width:1199px){
