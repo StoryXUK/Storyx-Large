@@ -96,6 +96,8 @@ iframe, embed, object {max-width: 100%;}
 
 .ml-15 {margin-left: 15px;}
 
+.capitalise {text-transform: capitalize;}
+
 
 /* Typography */
 
