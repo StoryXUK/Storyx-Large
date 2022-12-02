@@ -1,6 +1,7 @@
 @media (min-width:1199px){
 .mobile-only {display: none;}
 .pt-100-mb {padding-top: 100px;}
+
 }
 
 @media (max-width:1199px){
@@ -8,9 +9,14 @@
 	.move-up {position: absolute; top: 0px}
 	.font-80px {font-size: 40px;}
 	.width-50-percent {width: 90% !important}
+	.font-80px {font-size: 30px}
 	.font-60px {font-size: 30px}
 	.font-40px {font-size: 20px}
+	.font-30px {font-size: 26px}
 	.desktop-only {display: none;}
+	.mobile-width-80 {width: 80% !important}
+	.mobile-width-90 {width: 90% !important}
+	.line-height-40 {line-height: 30px;}
  }
 
 @media (max-width:1199px){

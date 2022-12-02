@@ -115,9 +115,10 @@ p a {}
 p a:hover {color: #1d5ade;}
 p { letter-spacing: normal;line-height: 24px;color: #888;font-weight:300;font-family: 'Roboto', sans-serif;}
 a {text-decoration: none;color:#212121;}
-a:hover, a:focus, a:active {outline: none;text-decoration: underline;color:#1d5ade;}
+a:hover, a:focus, a:active {outline: none;text-decoration: none}
 ul {list-style: none;}
 li > ul, li > ol {padding: 0;margin-left: 15px;}
+li a:hover {color: #1d5ade;}
 figure {margin-bottom: 6px;position: relative;}
 img {height: auto;max-width: 100%;}
 .mark, mark{background-color:#1d5ade;color:#fff;}
