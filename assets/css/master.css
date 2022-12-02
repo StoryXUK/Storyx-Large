@@ -193,16 +193,16 @@ nav.navbar.bootsnav ul.nav > li > a.nav-btn-default {padding: 10px 15px;margin-t
 .menu-btn {position: fixed;right: 8%;z-index: 999;top: 2%;}
 .menu-btn a{background-color: #fff;width: 60px;height: 60px;display: block;text-align: center;line-height: 57px;box-shadow: 5px 5px 15px 0 rgba(31, 31, 31, 0.07);font-size: 26px;}
 .btn-open:before {color: #333;content: "\f130";font-family: "Ionicons";-webkit-transition: all .2s linear 0s;-moz-transition: all .2s linear 0s;-o-transition: all .2s linear 0s;transition-property: all .2s linear 0s;}
-.btn-open:hover:before {color: #BF0731;}
+.btn-open:hover:before {color: #2e6fd7;}
 .btn-close:before {color: #333;content: "\f2d7";font-family: "Ionicons";-webkit-transition: all .2s linear 0s;-moz-transition: all .2s linear 0s;-o-transition: all .2s linear 0s;transition-property: all .2s linear 0s;}
-.btn-close:hover:before {color: #BF0731;}
+.btn-close:hover:before {color: #2e6fd7;}
 
 /* Menu Overlay */
 
 body.overflow{overflow: hidden;}
-.menu-overlay {position: fixed;top: 0;z-index: 998;display: none;overflow: hidden;width: 40%;height: 60%;background: #060606;left: 0;right: 0;}
+.menu-overlay {position: fixed;top: 0;z-index: 0;display: none;overflow: hidden;width: 50%;height: 100%; background: #060606;left: 20;right: 0;}
 .menu-overlay .menu-wrap {width: 100%;display: table;height: 100vh;}
-ul.vcard-menu {margin: 0 auto;padding: 0;width: 100%;}
+ul.vcard-menu {margin: 0;padding: 0;width: 100%;}
 ul.vcard-menu li {padding: 10px 0;list-style: none;text-align: left;font-family: 'Montserrat', sans-serif;font-weight: 500;font-size: 50px;}
 ul.vcard-menu li a {color: #fff;}
 ul.vcard-menu li a:hover {color: #1d5ade;}

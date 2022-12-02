@@ -204,11 +204,31 @@ nav.bootsnav.navbar-full .navbar-collapse ul.nav{
     overflow: auto;
 }
 
+
+
+
 nav.bootsnav.navbar-full .navbar-collapse ul.nav a:hover,
 nav.bootsnav.navbar-full .navbar-collapse ul.nav a:focus,
 nav.bootsnav.navbar-full .navbar-collapse ul.nav a{
     background-color: transparent;
 }
+
+nav.navbar.bootsnav ul.nav > li > a:hover {
+    border-bottom: 1px solid #000;
+    border-width: 3px;
+    padding-bottom: 3px;
+    color: #060606;
+    /* text-decoration: underline; */
+    font-weight: 300;
+    
+}
+
+nav.navbar.bootsnav ul.nav > li > .active {
+    font-size: 14px;
+    font-weight: 800;
+    
+}
+    
 
 nav.bootsnav.navbar-full .navbar-collapse ul.nav > li{
     float: none;
