@@ -219,12 +219,12 @@ nav.navbar.bootsnav ul.nav > li > a:hover {
     padding-bottom: 3px;
     color: #060606;
     /* text-decoration: underline; */
-    font-weight: 300;
+    font-weight: 800;
     
 }
 
 nav.navbar.bootsnav ul.nav > li > .active {
-    font-size: 14px;
+    
     font-weight: 800;
     
 }
@@ -508,6 +508,9 @@ body{
     color: #fff;
     margin-bottom: 15px;
 }
+
+
+
 
 .side .widget ul.link{
     padding: 0;

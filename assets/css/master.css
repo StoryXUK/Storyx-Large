@@ -112,18 +112,18 @@ h6 { font-size: 14px;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #212121;}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5:hover a, h6 a:hover { color: #1d5ade;}
 p a {}
-p a:hover {color: #1d5ade;}
+p a:hover {color: #3f6cab;}
 p { letter-spacing: normal;line-height: 24px;color: #888;font-weight:300;font-family: 'Roboto', sans-serif;}
 a {text-decoration: none;color:#212121;}
 a:hover, a:focus, a:active {outline: none;text-decoration: none}
 ul {list-style: none;}
 li > ul, li > ol {padding: 0;margin-left: 15px;}
-li a:hover {color: #1d5ade;}
+li a:hover {color: #3f6cab;}
 figure {margin-bottom: 6px;position: relative;}
 img {height: auto;max-width: 100%;}
-.mark, mark{background-color:#1d5ade;color:#fff;}
+.mark, mark{background-color:#1d5ade; color:#fff;}
 pre {margin: 0 20px;padding: 10px;border: 1px solid #e2e2e2;background: #f1f1f1;border-radius:0;}
-blockquote {border-left: 2px solid #1d5ade;background: #fff;padding: 15px 40px;}
+blockquote {border-left: 2px solid #3f6cab;background: #fff;padding: 15px 40px;}
 blockquote p {font-size: 18px;line-height: 30px;margin-bottom: 17px !important;font-weight: 300;}
 .blockquote-reverse, blockquote.pull-right {border-right: 2px solid #1d5ade;background:#fff;}
 .outline-alert {background-color: transparent!important;}
@@ -409,7 +409,7 @@ input.search-bar-top:-moz-placeholder { color: #fff!important; }
 .bordered-bg {background-color: transparent;border-top: 1px solid #e0e0e0;border-bottom: 1px solid #e0e0e0;}
 .transparent-bg{background-color:transparent!important;}
 .dark-bg{background-color:#212121;}
-.darken-bg{background-color:#151515;}
+.darken-bg{background-color:#000000;}
 .d-dark-bg{background-color:#0a0a0a;}
 .white-bg{background-color: #fff;}
 .default-bg{background-color:#6c6c6c;}
