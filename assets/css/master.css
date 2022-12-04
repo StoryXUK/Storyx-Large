@@ -402,6 +402,7 @@ input.search-bar-top:-moz-placeholder { color: #fff!important; }
 /* View Heights */
 
 .view-height-100vh{height: 100vh!important;}
+.view-height-200vh{height: 200vh!important;}
 
 
 /* Backgrounds */
@@ -4766,7 +4767,7 @@ section.big-block .client-logo {padding:10%;}
 .page-title h1 {
     font-size: 50px;
     line-height: 1.5em;
-    font-weight: 700;
+    font-weight: 300;
     margin: 0;
 }
 
