@@ -6,7 +6,7 @@
 
 @media (max-width:1199px){
 	.padding-left {padding-left: 0px;}
-	.padding-left-150 {padding-left: 0px;}
+	.padding-left-150 {padding-left: 10px;}
 	.move-up {position: absolute; top: 0px}
 	.font-80px {font-size: 40px;}
 	.width-50-percent {width: 90% !important}
