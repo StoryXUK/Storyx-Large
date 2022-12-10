@@ -10,7 +10,7 @@
   <!-- keywords -->
   <meta name="keywords" content="web design, web development, branding, content, storytelling">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>StoryX</title>
+  <title>Home | StoryX</title>
   <link rel="shortcut icon" href="assets/images/favicon.ico">
 
   <!-- Core Style Sheets -->
@@ -29,21 +29,12 @@
   <!--== Loader Start ==-->
   <div id="loader-overlay">
     <div class="loader">
-      <svg version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-        y="0px" viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
-        <rect x="20" y="50" width="4" height="10" fill="#BF0731">
-          <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 20; 0 0"
-            begin="0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="30" y="50" width="4" height="10" fill="#BF0731">
-          <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 20; 0 0"
-            begin="0.2s" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="40" y="50" width="4" height="10" fill="#BF0731">
-          <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 20; 0 0"
-            begin="0.4s" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-      </svg>
+
+      <video width="400" autoplay>
+        <source src="assets/videos/preloader.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+      </video>
+
     </div>
   </div>
   <!--== Loader End ==-->
@@ -52,7 +43,7 @@
   <div class="wrapper">
 
     <!--== Header Start ==-->
-    <nav class="navbar navbar-default bootsnav on no-full">
+    <nav class="navbar navbar-default navbar-fixed bootsnav on no-full">
       <!--== Start Top Search ==-->
       <div class="fullscreen-search-overlay" id="search-overlay"> <a href="#" class="fullscreen-close"
           id="fullscreen-close-button"><i class="icofont icofont-close"></i></a>
@@ -68,16 +59,20 @@
       </div>
       <!--== End Top Search ==-->
       <div class="container">
+
         <!--== Start Atribute Navigation ==-->
         <div class="attr-nav hidden-xs sm-display-none">
           <ul class="social-media-dark social-top">
-            <li><a href="#" class="icofont icofont-social-facebook"></a></li>
-            <li><a href="#" class="icofont icofont-social-twitter"></a></li>
-            <li class="search"><a href="#" id="search-button"><i class="icofont icofont-search"></i></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/StoryXuk" class="icofont icofont-social-facebook"></a>
+            </li>
+            <li><a target="_blank" href="https://twitter.com/StoryX_uk" class="icofont icofont-social-twitter"></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/storyxuk/"
+                class="icofont icofont-social-linkedin"></a></li>
+            <li><a target="_blank" href="https://api.whatsapp.com/send?phone=07496156914"
+                class="icofont icofont-social-whatsapp"></a></li>
           </ul>
         </div>
         <!--== End Atribute Navigation ==-->
-
         <!--== Start Header Navigation ==-->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i
@@ -90,20 +85,16 @@
         <!--== Collect the nav links, forms, and other content for toggling ==-->
         <div class="collapse navbar-collapse" id="navbar-menu">
           <ul class="nav navbar-nav navbar-right" data-in="fadeIn" data-out="fadeOut">
-            <li class="dropdown megamenu-fw"> <a href="index.html" class="dropdown-toggle"
-                data-toggle="dropdown">Home</a>
-            <li class="dropdown megamenu-fw"> <a href="about.html" class="dropdown-toggle" data-toggle="dropdown">Our
-                Story</a>
-            <li class="dropdown megamenu-fw"> <a href="work.html" class="dropdown-toggle" data-toggle="dropdown">Our
-                Work</a>
-            <li class="dropdown megamenu-fw"> <a href="mission.html" class="dropdown-toggle" data-toggle="dropdown">Our
-                Mission</a>
 
-              <!--== end row ==-->
-            </li>
+
+            <li><a href="our-services.html">What We Do</a></li>
+            <li><a href="work.html">Our Work</a></li>
+            <li><a href="story.html">Our Story</a></li>
+
+
           </ul>
-          </li>
-          </ul>
+
+
         </div>
         <!--== /.navbar-collapse ==-->
       </div>
@@ -111,37 +102,21 @@
     <!--== Header End ==-->
 
 
-    <!--== About Company Start ==-->
-    <section class="pt-0 pb-0 white-bg">
+
+
+
+    <section class="white-bg">
       <div class="container">
-        <div class="row row-flex flex-center">
-
-          <div class="col-md-6 col-sm-12 wow fadeInLeft min-width-700px">
-
-            <div class="dark-color">
-              <h1 class="font-400">The NHS</h1>
-              <h5 class="white-color">Only advertising would take a word most people <br>run from and treat it as a good
-                thing.</h5>
-
-            </div>
-
-
-
+        <div class="row">
+          <div class="col-sm-9 pt-100 mt-100 pb-100 wow fadeIn" data-wow-delay="0.4s">
+            <h2 class="font-60px font-400">Web design & UX/UI agency. </h2>
+            <h3 class="font-60px font-400 mt-0"></h3>
+            <h5 class="font-100 font-40px">London | Cornwall</h5>
+            
           </div>
-        
-      
-      <div class="col-md-6 col-sm-12 bg-flex-cover wow fadeInRight min-width-700px"
-        style="background-image: url(assets/images/nhs-app-hero.png);"></div>
-  </div>
-  </div>
-  </section>
-  <!--== About Company End ==-->
-
-
-
-  
-
-
+        </div>
+      </div>
+    </section>
   <!--== Single Project Start ==-->
   <section class="white-bg bordered-bg">
     <div class="container">
