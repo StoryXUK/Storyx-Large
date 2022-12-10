@@ -17,6 +17,7 @@
 	.mobile-width-80 {width: 80% !important}
 	.mobile-width-90 {width: 90% !important}
 	.line-height-40 {line-height: 30px;}
+	.all-padding-50 {padding: 10px;}
  }
 
 @media (max-width:1199px){
