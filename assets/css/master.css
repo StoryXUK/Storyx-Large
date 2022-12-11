@@ -1149,10 +1149,13 @@ section.gradient-block .team-slider .slick-dots li.slick-active button {
     -moz-transition: 0.4s;
     -o-transition: 0.4s;
     transition: 0.4s;
-	text-transform: uppercase;
+	text-transform: none;
 	font-size: 14px;
     letter-spacing: 1px;
     font-weight: 300;
+    max-width: 300px;
+    margin: auto;
+    text-align: left;
 }
 .portfolio:hover .portfolio-description .links {
     top: 25px;
