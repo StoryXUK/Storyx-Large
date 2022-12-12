@@ -1123,7 +1123,7 @@ section.gradient-block .team-slider .slick-dots li.slick-active button {
     position: relative;
     left: 0;
     color: #fff;
-    width: 100%;
+    width: 80%;
     opacity: 0;
     visibility: hidden;
 }
