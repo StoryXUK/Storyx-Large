@@ -1139,7 +1139,7 @@ section.gradient-block .team-slider .slick-dots li.slick-active button {
 	font-family: 'Roboto', sans-serif;;
 }
 .portfolio:hover .portfolio-description .portfolio-title {
-    top: 30px;
+    top: 20px;
     opacity: 1;
     visibility: visible;
 }
@@ -1158,7 +1158,7 @@ section.gradient-block .team-slider .slick-dots li.slick-active button {
     text-align: left;
 }
 .portfolio:hover .portfolio-description .links {
-    top: 25px;
+    top: 15px;
     opacity: 1;
     visibility: visible;
 }
@@ -1179,7 +1179,7 @@ section.gradient-block .team-slider .slick-dots li.slick-active button {
 
 
 .hover-type-2 .portfolio-wrap {
-    margin-top: -110px;
+    margin-top: -70px;
 }
 
 .hover-type-2 .portfolio-details{
