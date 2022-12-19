@@ -25,6 +25,7 @@
 		left: 0;
 		color: #fff;
 		width: 80%;
+		text-transform: none;
 		opacity: 0;
 		visibility: hidden;
 	}

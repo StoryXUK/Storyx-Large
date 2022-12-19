@@ -1123,7 +1123,7 @@ section.gradient-block .team-slider .slick-dots li.slick-active button {
     position: relative;
     left: 0;
     color: #fff;
-    width: 80%;
+    width: 100%;
     opacity: 0;
     visibility: hidden;
 }
@@ -1155,7 +1155,7 @@ section.gradient-block .team-slider .slick-dots li.slick-active button {
     font-weight: 300;
     max-width: 300px;
     margin: auto;
-    text-align: left;
+    text-align: center;
 }
 .portfolio:hover .portfolio-description .links {
     top: 15px;
