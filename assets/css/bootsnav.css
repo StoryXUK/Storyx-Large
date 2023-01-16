@@ -214,8 +214,8 @@ nav.bootsnav.navbar-full .navbar-collapse ul.nav a{
 }
 
 nav.navbar.bootsnav ul.nav > li > a:hover {
-    border-bottom: 1px solid rgb(31, 31, 31, 0.6);
-    border-width: 1px;
+    /* border-bottom: 1px solid rgb(31, 31, 31, 0.6);
+    border-width: 1px; */
    
     color: #060606;
     /* text-decoration: underline; */
