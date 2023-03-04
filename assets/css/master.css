@@ -113,13 +113,13 @@ h6 { font-size: 14px;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #212121;}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5:hover a, h6 a:hover { color: #1d5ade;}
 p a {}
-p a:hover {color: #3f6cab;}
+p a:hover {color: #767676;}
 p { letter-spacing: normal;line-height: 24px;color: #888;font-weight:300;font-family: 'Roboto', sans-serif;}
 a {text-decoration: none;color:#212121;}
 a:hover, a:focus, a:active {outline: none;text-decoration: none}
 ul {list-style: none;}
 li > ul, li > ol {padding: 0;margin-left: 15px;}
-li a:hover {color: #3f6cab;}
+li a:hover {color: #767676;}
 figure {margin-bottom: 6px;position: relative;}
 img {height: auto;max-width: 100%;}
 .mark, mark{background-color:#1d5ade; color:#fff;}
@@ -194,9 +194,9 @@ nav.navbar.bootsnav ul.nav > li > a.nav-btn-default {padding: 10px 15px;margin-t
 .menu-btn {position: fixed;right: 8%;z-index: 999;top: 2%;}
 .menu-btn a{background-color: #fff;width: 60px;height: 60px;display: block;text-align: center;line-height: 57px;font-size: 28px;}
 .btn-open:before {color: #333;content: "\f130";font-family: "Ionicons";-webkit-transition: all .2s linear 0s;-moz-transition: all .2s linear 0s;-o-transition: all .2s linear 0s;transition-property: all .2s linear 0s;}
-.btn-open:hover:before {color: #2e6fd7;}
+.btn-open:hover:before {color: #767676;}
 .btn-close:before {color: #333;content: "\f2d7";font-family: "Ionicons";-webkit-transition: all .2s linear 0s;-moz-transition: all .2s linear 0s;-o-transition: all .2s linear 0s;transition-property: all .2s linear 0s;}
-.btn-close:hover:before {color: #2e6fd7;}
+.btn-close:hover:before {color: #767676;}
 
 /* Menu Overlay */
 
@@ -2619,7 +2619,7 @@ li.post-comment {
 }
 
 .footer .widget-links a:hover{
-  color:#BF0731;
+  color:#767676;
   text-decoration: none;
 }
 
