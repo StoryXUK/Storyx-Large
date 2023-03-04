@@ -4741,7 +4741,7 @@ form.register {
 .left-img {bottom: -85px;position: absolute;left: -70px;width: 54%;}
 .left-img img {max-width: none;}
 
-.client-logo {min-width: 200px; margin: 0px 15px;}
+.client-logo {min-width: 210px; margin: 0px 15px;}
 .client-logo img {margin: auto;opacity: 0.7;filter: alpha(opacity=70);}
 .client-logo img:hover {opacity: 1.0;filter: alpha(opacity=100);cursor: pointer;}
 section.big-block .client-logo {padding:10%;}
@@ -4889,4 +4889,3 @@ section.big-block .client-logo {padding:10%;}
 .filter-white.cbp-l-filters-alignCenter .cbp-filter-item:hover {color: #888;}
 .portfolio-layout-slider .item-img{margin: 0 15px;}
 .portfolio-layout-slider .item-img img{box-shadow: 0 10px 30px 0 rgba(31,35,37,.1);}
-.happy {cursor: url("/uploads/media/default/0001/02/ee4486d1b3fc998e444c3b0100c73db282760eb5.png"), auto;}
