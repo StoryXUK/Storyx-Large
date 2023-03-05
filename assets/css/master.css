@@ -99,7 +99,7 @@ iframe, embed, object {max-width: 90%;}
 
 .capitalise {text-transform: capitalize;}
 
-
+.underline {border-bottom: #171516; padding-bottom: 20px; border-bottom-style: solid;}
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {color: #212121;margin: 20px 0 10px 0;font-style: normal;font-family: 'Roboto', sans-serif;}
@@ -142,7 +142,7 @@ label {margin-bottom: 10px;font-weight: 500;color:#212121;font-family: 'Montserr
 textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
 border-color: none;box-shadow: none;outline: 0 none;}
 .search-submit{position: absolute;right: 20px;top:14px;background: none;border:0;padding: 0;font-size:20px;-webkit-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s;color:#e0e0e0;}
-.search-submit:hover{color: #1d5ade;}
+.search-submit:hover{color: #414141;}
 .select-custom {width: 100%;overflow: hidden;background: url(../images/select-arrow.png) no-repeat 97% 50%;border: 1px solid #fff;margin-bottom: 20px;}
 .select-custom select {width: 100%;border: none;box-shadow: none;background-color: transparent;background-image: none;-webkit-appearance: none;-moz-appearance: none;
 appearance: none;cursor: pointer;}
