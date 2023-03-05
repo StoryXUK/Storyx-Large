@@ -43,7 +43,7 @@
 	}
 
 	.font-60px {
-		font-size: 30px
+		font-size: 16px
 	}
 
 	.font-40px {
@@ -92,12 +92,10 @@
 	}
 
 	.font-50px {
-		font-size: 32px;
+		font-size: 18px;
 	}
 
-	.font-60px {
-		font-size: 30px;
-	}
+	
 
 	.ml-20 {
 		margin-left: 0px;
