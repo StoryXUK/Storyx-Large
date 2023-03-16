@@ -4120,6 +4120,7 @@ body.search-results {
 .site-footer--inverse a,
 .site-footer--inverse .post__title a {
   color: white;
+  text-transform: capitalize;
 }
 
 .site-footer--inverse .navigation--footer>li>a {
@@ -6506,6 +6507,7 @@ a.entry-cat--overlap {
 .entry-title {
   margin: 0.25em 0 0.4em;
   color: rgba(0, 0, 0, 0.8);
+  text-transform: capitalize;
 }
 
 .post__title:first-child,
