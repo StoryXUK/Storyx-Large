@@ -518,18 +518,18 @@ nav.navbar.bootsnav ul.nav > li > a.nav-btn-default {padding: 10px 15px;margin-t
 .absolute-header {position: absolute;top: 0;left: 0;right: 0;width: 100%;z-index: 99;padding: 10px 0;}
 .menu-logo-outside {max-width: 180px;}
 .menu-btn {position: fixed;right: 8%;z-index: 999;top: 2%;}
-.menu-btn a{background-color: #fff;width: 60px;height: 60px;display: block;text-align: center;line-height: 57px;font-size: 28px;}
+.menu-btn a{background-color: transparent; width: 80px;height: 80px;display: block;text-align: center;line-height: 70px;font-size: 38px;}
 .btn-open:before {color: #333;content: "\f130";font-family: "Ionicons";-webkit-transition: all .2s linear 0s;-moz-transition: all .2s linear 0s;-o-transition: all .2s linear 0s;transition-property: all .2s linear 0s;}
 .btn-open:hover:before {color: #767676;}
-.btn-close:before {color: #333;content: "\f2d7";font-family: "Ionicons";-webkit-transition: all .2s linear 0s;-moz-transition: all .2s linear 0s;-o-transition: all .2s linear 0s;transition-property: all .2s linear 0s;}
+.btn-close:before {color: #fff;content: "\f2d7";font-family: "Ionicons";-webkit-transition: all .2s linear 0s;-moz-transition: all .2s linear 0s;-o-transition: all .2s linear 0s;transition-property: all .2s linear 0s;}
 .btn-close:hover:before {color: #767676;}
 
 /* Menu Overlay */
 
 body.overflow{overflow: hidden;}
-.menu-overlay {position: fixed;top: 0;z-index: 0;display: none;overflow: hidden;width: 350px;height: 100%; background: #060606;left: 20;right: 0;}
+.menu-overlay {position: fixed;top: 0;z-index: 0;display: none;overflow: hidden;width: 380px;height: 100%; background: #060606;left: 20;right: 0;}
 .menu-overlay .menu-wrap {width: 100%;display: table;height: 100vh;}
-ul.vcard-menu {margin: 0;padding: 0;width: 100%;}
+ul.vcard-menu {margin: 0;padding-left: 20px;width: 100%;}
 ul.vcard-menu li {padding: 10px 0;list-style: none;text-align: left;font-family: 'Montserrat', sans-serif;font-weight: 500;font-size: 26px;}
 ul.vcard-menu li a {color: #fff;}
 ul.vcard-menu li a:hover {color: #767676;}
