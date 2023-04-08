@@ -121,6 +121,13 @@ iframe, embed, object {max-width: 90%;}
 }
 
 
+.justified {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+
 /* Scroll down */
 #wrapper {
   display: table;
@@ -711,6 +718,7 @@ input.search-bar-top:-moz-placeholder { color: #fff!important; }
 .min-height-200px {min-height: 200px}
 .min-height-300px {min-height: 300px!important;}
 .min-height-400px {min-height: 400px}
+.min-height-450px {min-height: 450px}
 .min-height-500px {min-height: 500px}
 .min-height-600px {min-height: 600px}
 .min-height-700px {min-height: 700px}
