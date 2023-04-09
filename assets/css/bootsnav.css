@@ -376,7 +376,7 @@ ul.cart-list > li > h6{
     margin: 0;
 }
 
-ul.cart-list > li > h6 a{color:#757575;}
+ul.cart-list > li > h6 a{color:#EBC452;}
 ul.cart-list > li > h6 a:hover, ul.cart-list > li > h6 a:focus{background-color: transparent!important;}
 
 ul.cart-list > li > h6 > a.photo{
@@ -503,7 +503,7 @@ body{
 
 .side ul.social-media li{display: inline-block;margin-right: 10px;font-size: 18px;}
 .side ul.social-media li a{color: #fff;}
-.side ul.social-media li a:hover, .side .widget ul.social-media li a:focus{color: #BF0731;}
+.side ul.social-media li a:hover, .side .widget ul.social-media li a:focus{color: #EBC452;}
 .side .widget .title{
     color: #fff;
     margin-bottom: 15px;
@@ -649,7 +649,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover,
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover{
         background-color:rgba(67, 13, 60, 0.1);
-		color:#212121;
+		color:#EBC452;
     }
 
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a{
@@ -735,7 +735,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
 
 	nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover{
-        color: #212121;
+        color: #EBC452;
     }
 
 
@@ -1023,7 +1023,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
 
 	  nav.bootsnav.navbar-sidebar ul.nav > li > a:hover{
-        color:#BF0731;
+        color:#EBC452;
     }
 
     nav.bootsnav.navbar-sidebar ul.nav > li.dropdown > a:after{
