@@ -14992,3 +14992,15 @@ canvas {
     opacity: 0;
   }
 }
+
+
+
+.container-image {
+  display: flex;
+    }
+
+    .image {
+      width: 50%;
+      height: auto;
+    }
+
