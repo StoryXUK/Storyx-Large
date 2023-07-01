@@ -89,4 +89,3 @@ function combineImages() {
 function handleError(error) {
   console.error("Error loading images:", error);
 }
-
