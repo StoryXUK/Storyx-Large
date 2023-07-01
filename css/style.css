@@ -14993,14 +14993,62 @@ canvas {
   }
 }
 
+.container-ove {
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.image-top {
+  z-index: 1;
+}
+
+.image-left {padding-left: 50%;}
 
 
-.container-image {
-  display: flex;
-    }
 
-    .image {
-      width: 50%;
-      height: auto;
-    }
 
+img {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+.imgA1 {
+  z-index: 1;
+}
+.imgB1 {
+  z-index: 3;
+}
+
+.laptop-container {
+  position: relative;
+  width: 400px; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+}
+
+.laptop-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.color-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
