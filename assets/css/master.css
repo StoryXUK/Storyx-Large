@@ -5223,3 +5223,11 @@ section.big-block .client-logo {padding:10%;}
 .filter-white.cbp-l-filters-alignCenter .cbp-filter-item:hover {color: #888;}
 .portfolio-layout-slider .item-img{margin: 0 15px;}
 .portfolio-layout-slider .item-img img{box-shadow: 0 10px 30px 0 rgba(31,35,37,.1);}
+
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
