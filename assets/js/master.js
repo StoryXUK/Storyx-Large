@@ -15,10 +15,6 @@
 
 	jQuery(document).ready(function ($) {
 
-
-
-	
-
 		/* ===== jQuery Varibles ===== */
 
 			mainSlider();
@@ -48,7 +44,7 @@
 		/* ===== PRELOADER  ===== */
 
 		      $("#loader-overlay").delay(500).fadeOut();
-	        $(".loader").delay(3000).fadeOut("slow");
+	        $(".loader").delay(1000).fadeOut("slow");
 
 	        $(window).trigger("scroll");
 	        $(window).trigger("resize");
@@ -617,7 +613,7 @@
 		lifeLike:true,
 		startDelete:false,
 		loop:true,
-    strings: ['NHS', 'Fibodo', 'England Golf', 'Butterfly Conservation', 'Sussex Spiced']
+    strings: ['thinking', 'color', 'photography', 'art', 'typography']
   });
 
 	$('.type-it-2').typeIt({
@@ -627,7 +623,7 @@
 		lifeLike:true,
 		startDelete:false,
 		loop:true,
-    strings: ['NHS', 'Fibodo', 'England Golf', 'Butterfly Conservation', 'Sussex Spiced']
+    strings: ['design', 'development', 'apps', 'animation', 'marketing']
   });
 
   /* ===== FIT VIDEOS ===== */
