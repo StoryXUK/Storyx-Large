@@ -5227,3 +5227,62 @@ section.big-block .client-logo {padding:10%;}
 
 
 
+
+
+#preloader {
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 0.5s;
+}
+
+#loader {
+  width: 80%;
+  height: 4px;
+  background-color: #ffffff;
+  animation: progress 2s infinite;
+}
+
+#loading-text {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+#content {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  transition: left 0.5s;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+}
+
+@keyframes progress {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 50%;
+  }
+  100% {
+    width: 100%;
+  }
+}
