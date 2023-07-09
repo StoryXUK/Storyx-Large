@@ -447,7 +447,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #212121;}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5:hover a, h6 a:hover { color: #EBC452;}
 p a {}
 p a:hover {color: #EBC452;}
-p { letter-spacing: normal;line-height: 24px;color: #888;font-weight:300;font-family: 'Roboto', sans-serif;}
+p { letter-spacing: normal;line-height: 24px;color: #888;font-weight:300; text-align: justify; font-family: 'Roboto', sans-serif;}
 a {text-decoration: none;color:#212121;}
 a:hover, a:focus, a:active {outline: none;text-decoration: none}
 ul {list-style: none;}
@@ -4076,7 +4076,7 @@ transition: transform .8s cubic-bezier(.5,.2,.2,.8),-webkit-transform .8s cubic-
 .our-process-style-01 .count-wrap:before {width: 80px;height: 80px;opacity: .2;z-index: 1;}
 .our-process-style-01 .count-wrap:after {width: 65px;height: 65px;opacity: .5;z-index: 2;}
 .our-process-style-01 .count-wrap:after, .our-process-style-01 .count-wrap:before {position: absolute;top: 50%;left: 50%;content: '';-webkit-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);transform: translate(-50%,-50%);border-radius: 100px;}
-.our-process-style-01 .count, .our-process-style-01 .count-wrap:after, .our-process-style-01 .count-wrap:before{background-color: #BF0731;}
+.our-process-style-01 .count, .our-process-style-01 .count-wrap:after, .our-process-style-01 .count-wrap:before{background-color: #ffcc80;}
 .our-process-style-01 .count {position: absolute;top: 50%;left: 50%;width: 50px;height: 50px;border-radius: 100px;text-align: center;line-height: 50px;color: #fff;font-size: 24px;font-weight: 600;-webkit-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);transform: translate(-50%,-50%);z-index: 3;}
 .our-process-style-01 .line:after, .our-process-style-01 .line:before {content: "";display: block;width: 50%;height: 1px;background: #eee;position: absolute;top: 40px;text-align: center;}
 .our-process-style-01 .line:after{right:0}
