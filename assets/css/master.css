@@ -5245,15 +5245,19 @@ section.big-block .client-logo {padding:10%;}
 }
 
 #loader {
-  width: 80%;
-  height: 4px;
+  width: 60%;
+  height: 2px;
   background-color: #ffffff;
   animation: progress 2s infinite;
 }
 
 #loading-text {
-  font-size: 20px;
+  font: 100;
+  font-weight: 100;
+  font-family: Roboto;
+  font-size: 30px;
   margin-top: 10px;
+  margin-bottom: 30px;
   color: #ffffff;
 }
 

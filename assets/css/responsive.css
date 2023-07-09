@@ -54,6 +54,9 @@
 		font-size: 18px
 	}
 
+	.font-20px {
+		font-size: 20px
+	}
 	.desktop-only {
 		display: none;
 	}
