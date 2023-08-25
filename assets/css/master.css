@@ -5241,14 +5241,19 @@ section.big-block .client-logo {padding:10%;}
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  transition: opacity 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 9999;
+
+ 
 }
 
 #loader {
   width: 60%;
   height: 2px;
   background-color: #ffffff;
-  animation: progress 2s infinite;
+  animation: progress 3s infinite;
 }
 
 #loading-text {

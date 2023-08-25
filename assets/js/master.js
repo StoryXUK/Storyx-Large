@@ -1,7 +1,7 @@
 	/* ===================================================================
 
-	Author       	: Incognito Themes
-	Template Name	: Torneo - Multi-Purpose HTML5 Theme
+	Author       	: StoryX
+	Template Name	: StoryX
 	Version      	: 1.0
 
 	* ================================================================= */
@@ -41,21 +41,28 @@
 			parallaxEffect();
 			parallaxBackground();
 
-		/* ===== PRELOADER  ===== */
-
-		      $("#loader-overlay").delay(500).fadeOut();
-	        $(".loader").delay(1000).fadeOut("slow");
-
-	        $(window).trigger("scroll");
-	        $(window).trigger("resize");
-
-	        if (window.location.hash){
-
-	            var hash_offset = $(window.location.hash).offset().top;
-	            $("html, body").animate({
-	                scrollTop: hash_offset
-	            });
-	  }
+			$(document).ready(function () {
+				// Delayed fading out of the loader overlay and loader
+				$("#loader-overlay").delay(100).fadeOut();
+				$(".loader").delay(2000).fadeOut("slow");
+			
+				// Trigger scroll and resize events
+				$(window).trigger("scroll");
+				$(window).trigger("resize");
+			
+				if (window.location.hash) {
+					var hash_offset = $(window.location.hash).offset().top;
+					$("html, body").animate({
+						scrollTop: hash_offset
+					});
+				}
+			
+				// Adding the swipe-up effect
+				$("#preloader").css({
+					opacity: 0,
+					transform: "translateY(-100%)"
+				});
+			});
 
 
 		/* ===== COUNTERS  ===== */
