@@ -43,7 +43,7 @@
 
 			$(document).ready(function () {
 				// Delayed fading out of the loader overlay and loader
-				$("#loader-overlay").delay(100).fadeOut();
+				$("#loader-overlay").delay(500).fadeOut();
 				$(".loader").delay(2000).fadeOut("slow");
 			
 				// Trigger scroll and resize events

@@ -3683,7 +3683,7 @@ section.dark-block .default-slider .slick-prev:hover, section.dark-block .defaul
 .member-socialicons li a{color: #fff;display:block;}
 .member-socialicons li a:hover {color: #ff4552;}
 .member-socialicons li a i{display:block;font-size:13px;text-align:center;}
-ul.social-default, ul.social-default-no-border{display:block;}
+ul.social-default, ul.social-default-no-border{display:block;margin-left: 20px;}
 ul.social-default li, ul.social-default-no-border li {display:inline-block;margin-right: 12px;}
 ul.social-default li:last-child, ul.social-default-no-border li:last-child {margin-right:0;}
 ul.social-default li a{font-size: 16px;display: block;border: solid 1px;text-align: center;width: 40px;height: 40px;line-height: 40px;border-radius: 100px;}
@@ -3708,7 +3708,8 @@ ul.social-default-no-border li a:hover.dribble, ul.social-default-no-border li a
 ul.social-default-no-border li a:hover.google-plus, ul.social-default-no-border li a:focus.google-plus{color:#dd4b39;}
 ul.social-default-no-border li a:hover.linkedin, ul.social-default-no-border li a:focus.linkedin{color:#007bb6;}
 ul.social-default-no-border li a:hover.youtube, ul.social-default-no-border li a:focus.youtube{color:#bb0000;}
-ul.social-default-no-border li a:hover.instagram, ul.social-default-no-border li a:focus.instagram{color:#517fa4;}
+ul.social-default-no-border li a:hover.instagram, ul.social-default-no-border li a:focus.instagram{color:#d62976;}
+ul.social-default-no-border li a:hover.whatsapp, ul.social-default-no-border li a:focus.whatsapp{color:#128C7E;}
 ul.social-default-no-border li a:hover.pinterest, ul.social-default-no-border li a:focus.pinterest{color:#cb2027;}
 ul.social-default-no-border li a:hover.flicker, ul.social-default-no-border li a:focus.flicker{color:#ff0084;}
 ul.social-default-no-border li a:hover.tumblr, ul.social-default-no-border li a:focus.tumblr{color:#32506d;}
