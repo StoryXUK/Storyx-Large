@@ -534,7 +534,7 @@ nav.navbar.bootsnav ul.nav > li > a.nav-btn-default {padding: 10px 15px;margin-t
 /* Menu Overlay */
 
 body.overflow{overflow: hidden;}
-.menu-overlay {position: fixed;top: 0;z-index: 0;display: none;overflow: hidden;width: 400px;height: 100%; background: #060606;left: 20;right: 0;}
+.menu-overlay {position: fixed;top: 0;z-index: 0;display: none;overflow: hidden;width: 600px;height: 100%; background: #060606;left: 20;right: 0;}
 .menu-overlay .menu-wrap {width: 100%;display: table;height: 100vh;}
 ul.vcard-menu {margin: 0;padding-left: 20px;width: 100%;}
 ul.vcard-menu li {padding: 10px 0;list-style: none;text-align: left;font-family: 'Montserrat', sans-serif;font-weight: 500;font-size: 30px;}
@@ -3697,6 +3697,8 @@ ul.social-default li a.be{border-color:#1769FF;color:#1769FF;}
 ul.social-default li a:hover.be, ul.social-default li a:focus.be{border-color:#1769FF;color:#fff;background-color: #1769FF;}
 ul.social-default li a.ev{border-color:#528036;color:#528036;}
 ul.social-default li a:hover.ev, ul.social-default li a:focus.ev{border-color:#528036;color:#fff;background-color: #528036;}
+ul.social-default li a.wh{border-color:#528036;color:#128C7E;}
+ul.social-default li a:hover.ev, ul.social-default li a:focus.wh{border-color:#128C7E;color:#fff;background-color: #128C7E;}
 
 ul.social-default-no-border{margin-left:auto;margin-right:auto;text-align: center;}
 ul.social-default-no-border li a{font-size:16px;display:inline-block;color:#212121;}
@@ -3714,6 +3716,7 @@ ul.social-default-no-border li a:hover.pinterest, ul.social-default-no-border li
 ul.social-default-no-border li a:hover.flicker, ul.social-default-no-border li a:focus.flicker{color:#ff0084;}
 ul.social-default-no-border li a:hover.tumblr, ul.social-default-no-border li a:focus.tumblr{color:#32506d;}
 ul.social-default-no-border li a:hover.github, ul.social-default-no-border li a:focus.github{color:#171516;}
+ul.social-default-no-border li a:hover.whatsapp, ul.social-default-no-border li a:focus.whatsapp{color:#128C7E;}
 
 .xs-icon, .sm-icon, .md-icon, .lg-icon, .xl-icon {list-style: none; padding: 0;}
 .xs-icon li, .sm-icon li, .md-icon li, .lg-icon li, .xl-icon li {display: inline-block;}
@@ -3749,6 +3752,7 @@ footer .xs-icon li:last-child, footer .sm-icon li:last-child, footer .md-icon li
 .social-icons-style-01 a.git, .social-icons-style-02 a.git:hover, .social-icons-style-03 a.git span, .social-icons-style-06 .icon.github:before, .social-icons-style-09 a.github, .social-icons-style-10 a.git span, .social-icons-style-11 .github .back{background-color: #171516;}
 .social-icons-style-01 a.gplus, .social-icons-style-02 a.gplus:hover, .social-icons-style-03 a.gplus span, .social-icons-style-06 .icon.google-plus:before, .social-icons-style-09 a.google-plus, .social-icons-style-10 a.gplus span, .social-icons-style-11 .google-plus .back{background-color: #dd4b39;}
 .social-icons-style-01 a.dr, .social-icons-style-02 a.dr:hover, .social-icons-style-03 a.dr span, .social-icons-style-06 .icon.dribble:before, .social-icons-style-09 a.dribble, .social-icons-style-10 a.dr span, .social-icons-style-11 .dribble .back{background-color: #ea4c89;}
+.social-icons-style-01 a.dr, .social-icons-style-02 a.dr:hover, .social-icons-style-03 a.dr span, .social-icons-style-06 .icon.dribble:before, .social-icons-style-09 a.dribble, .social-icons-style-10 a.dr span, .social-icons-style-11 .dribble .back{background-color: #ea4c89;}
 
 /*	Social Icons Style 02   */
 
@@ -3778,7 +3782,8 @@ footer .xs-icon li:last-child, footer .sm-icon li:last-child, footer .md-icon li
 .social-icons-style-04 a:hover.flicker{color:#ff0084;}
 .social-icons-style-04 a:hover.tumblr{color:#32506d;}
 .social-icons-style-04 a:hover.github{color:#171516;}
-.social-icons-style-04 a:hover.rss{color:#f2890a;}
+.social-icons-style-04 a:hover.whatsapp{color:#128C7E;}
+
 
 /*	Social Icons Style 05   */
 
@@ -3794,7 +3799,7 @@ footer .xs-icon li:last-child, footer .sm-icon li:last-child, footer .md-icon li
 .social-icons-style-05 a.flicker, .social-icons-style-06 .icon.flicker .icofont, .social-icons-style-12 a.flicker{color:#ff0084;}
 .social-icons-style-05 a.tumblr, .social-icons-style-06 .icon.tumblr .icofont, .social-icons-style-12 a.tumblr{color:#32506d;}
 .social-icons-style-05 a.github, .social-icons-style-06 .icon.github .icofont, .social-icons-style-12 a.github{color:#171516;}
-.social-icons-style-05 a.rss, .social-icons-style-06 .icon.rss .icofont, .social-icons-style-12 a.rss{color:#f2890a;}
+.social-icons-style-05 a.whatsapp, .social-icons-style-06 .icon.rss .whatsapp, .social-icons-style-12 a.whatsapp{color:#128C7E;}
 .social-icons-style-05 a:hover{color:#fff;}
 
 /*	Social Icons Style 06   */
@@ -3825,7 +3830,7 @@ footer .xs-icon li:last-child, footer .sm-icon li:last-child, footer .md-icon li
 .social-icons-style-08 a.instagram:hover {border-color: #FE1F49; color: #FE1F49}
 .social-icons-style-08 a.pinterest:hover {border-color: #CB2027; color: #CB2027}
 .social-icons-style-08 a.flickr:hover {border-color: #ff0084; color: #ff0084}
-.social-icons-style-08 a.rss:hover {border-color: #f2890a; color: #f2890a}
+.social-icons-style-08 a.whatsapp:hover {border-color: #128C7E; color: #128C7E}
 .social-icons-style-08 a.behance:hover {border-color: #1769ff; color: #1769ff}
 .social-icons-style-08 a.tumblr:hover {border-color: #32506d; color: #32506d}
 
@@ -5219,8 +5224,16 @@ section.big-block .client-logo {padding:10%;}
 }
 
 .filter-white.cbp-l-filters-alignCenter .cbp-filter-item.cbp-filter-item-active{color:#BF0731;border-bottom: 1px solid #BF0731;}
-.filter-white.cbp-l-filters-alignCenter .cbp-filter-item{color:#fff;margin: 0 10px;}
+.filter-white.cbp-l-filters-alignCenter .cbp-filter-item{color:#fff;margin: 0 0px;}
 .filter-white.cbp-l-filters-alignCenter .cbp-filter-item:hover {color: #888;}
+.portfolio-layout-slider .item-img{margin: 0 0px;}
+.portfolio-layout-slider .item-img img{box-shadow: 0 10px 30px 0 rgba(31,35,37,.1);}
+
+
+
+.filter-white.blog-l-filters-alignCenter .blog-filter-item.blog-filter-item-active{color:#BF0731;border-bottom: 1px solid #BF0731;}
+.filter-white.cbp-l-filters-alignCenter .blog-filter-item{color:#fff;margin: 0 10px;}
+.filter-white.cbp-l-filters-alignCenter .blog-filter-item:hover {color: #888;}
 .portfolio-layout-slider .item-img{margin: 0 15px;}
 .portfolio-layout-slider .item-img img{box-shadow: 0 10px 30px 0 rgba(31,35,37,.1);}
 

@@ -7,7 +7,7 @@
 <!-- description -->
 <meta name="description" content="Torneo is creative agency, corporate, simple and clean template, Based on Bootstrap responsive multipurpose agency and portfolio HTML5 template with 28 unique home page demos">
 <!-- keywords -->
-<meta name="keywords" content="blog posts, fullscreen, business, photography, portfolio, one page, bootstrap responsive, start-up, ui/ux, html5, css3, studio, branding, creative design, multipurpose, parallax, personal, masonry, grid, coming soon, carousel, career">
+<meta name="keywords" content="creative, fullscreen, business, photography, portfolio, one page, bootstrap responsive, start-up, ui/ux, html5, css3, studio, branding, creative design, multipurpose, parallax, personal, masonry, grid, coming soon, carousel, career">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Torneo - Creative Agency, Business Multi-purpose template</title>
 <link rel="shortcut icon" href="assets/images/favicon.ico">
@@ -55,7 +55,9 @@
 <!--== Wrapper Start ==-->
 <div class="wrapper">
 
-  <!--== Start Top Search ==-->
+  <!--== Header Start ==-->
+  <nav class="navbar navbar-default bootsnav on no-full">
+    <!--== Start Top Search ==-->
     <div class="fullscreen-search-overlay" id="search-overlay"> <a href="#" class="fullscreen-close" id="fullscreen-close-button"><i class="icofont icofont-close"></i></a>
       <div id="fullscreen-search-wrapper">
         <form method="get" id="fullscreen-searchform">
@@ -66,17 +68,14 @@
         </form>
       </div>
     </div>
-  <!--== End Top Search ==-->
-  <!--== Header Start ==-->
-  <nav class="navbar navbar-default bootsnav on no-full">
-
-    <div class="container">
+    <!--== End Top Search ==-->
+    <div class="container-fluid">
       <!--== Start Atribute Navigation ==-->
       <div class="attr-nav hidden-xs sm-display-none">
         <ul class="social-media-dark social-top">
           <li><a href="#" class="icofont icofont-social-facebook"></a></li>
           <li><a href="#" class="icofont icofont-social-twitter"></a></li>
-          <li><a href="#" class="icofont icofont-social-linkedin"></a></li>
+          <li class="search"><a href="#" id="search-button"><i class="icofont icofont-search"></i></a></li>
         </ul>
       </div>
       <!--== End Atribute Navigation ==-->
@@ -121,7 +120,6 @@
                         <li><a href="home-creative-agency.html">Home Creative Agency</a></li>
                         <li><a href="home-app-landing.html">Home App Landing</a></li>
                         <li><a href="home-web-agency.html">Home Web Agency</a></li>
-
                         <li><a href="home-parallax.html">Home Parallax</a></li>
                         <li><a href="home-particle.html">Home Particle</a></li>
                         <li><a href="home-portfolio-creative.html">Home Portfolio Creative</a></li>
@@ -189,7 +187,7 @@
                   <li><a href="default-2col.html">Default 2 Columns</a></li>
                   <li><a href="default-3col.html">Default 3 Columns</a></li>
                   <li><a href="default-4col.html">Default 4 Columns</a></li>
-<li><a href="default-nospace.html">Default No Space</a></li>
+                  <li><a href="default-nospace.html">Default No Space</a></li>
                 </ul>
               </li>
               <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Boxed</a>
@@ -215,7 +213,7 @@
                   <li><a href="metro-nospace.html">Metro No Space</a></li>
                 </ul>
               </li>
-			  <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hover Types</a>
+      			  <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hover Types</a>
                 <ul class="dropdown-menu">
                   <li><a href="up-transform.html">Up Transform</a></li>
                   <li><a href="blur-zoom.html">Blur Zoom</a></li>
@@ -225,17 +223,17 @@
                   <li><a href="color-overlay.html">Color Overlay</a></li>
                   <li><a href="color-overlay-with-icons.html">Color Overlay With Icons</a></li>
                 </ul>
-			  </li>
+      			  </li>
               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Single Project Page</a>
                 <ul class="dropdown-menu">
                   <li><a href="single-project-page-01.html">Single Project Page 01</a></li>
                   <li><a href="single-project-page-02.html">Single Project Page 02</a></li>
                   <li><a href="single-project-page-03.html">Single Project Page 03</a></li>
-				  <li><a href="single-project-page-04.html">Single Project Page 04</a></li>
-				  <li><a href="single-project-page-05.html">Single Project Page 05</a></li>
-				  <li><a href="single-project-page-06.html">Single Project Page 06</a></li>
-				  <li><a href="single-project-page-07.html">Single Project Page 07</a></li>
-				  <li><a href="single-project-page-08.html">Single Project Page 08</a></li>
+        				  <li><a href="single-project-page-04.html">Single Project Page 04</a></li>
+        				  <li><a href="single-project-page-05.html">Single Project Page 05</a></li>
+        				  <li><a href="single-project-page-06.html">Single Project Page 06</a></li>
+        				  <li><a href="single-project-page-07.html">Single Project Page 07</a></li>
+        				  <li><a href="single-project-page-08.html">Single Project Page 08</a></li>
                 </ul>
               </li>
             </ul>
@@ -371,317 +369,176 @@
   </nav>
   <!--== Header End ==-->
 
-  <!--== Page Title Start ==-->
-  <section class="default-bg pt-40 pb-40">
+  <!--== Project Banner Start ==-->
+  <section class="parallax-bg fixed-bg view-height-100vh remove-padding" data-parallax-bg-image="assets/images/portfolio/project-imgs/single-project-img-49.jpg" data-parallax-speed="0.8" data-parallax-direction="up">
+    <div class="parallax-overlay z-index-0"></div>
+    <div class="container relative view-height-100vh">
+      <div class="simple-content-slider text-center">
+        <div class="simple-content-slider-text">
+          <div class="simple-content-text-inner">
+            <div class="row">
+              <div class="col-md-12 centerize-col">
+                <div class="white-color text-center">
+                  <h1 class="white-color font-700 text-uppercase font-100px line-height-90">Woman - Control</h1>
+                  <p class="lead mt-50">The music video "Control" shows the shift and transformation of 3D digital copies of the three<br> band members of 'Woman'.</p>
+                  <p class="lead mt-30">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been<br> the industry's standard dummy text ever since the 1500s, when an unknown printer took<br> a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--== Project Banner End ==-->
+
+  <!--== Single Project Start ==-->
+  <section class="white-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-8 col-xs-12 xs-mb-30">
+          <h2 class="font-700">Project Overview</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          <p class="mt-30"><a class="btn btn-md btn-dark-outline btn-animate btn-square"><span>Visit Project <i class="tr-icon icofont icofont-arrow-right"></i></span></a></p>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 xs-mb-30">
+          <ul class="portfolio-meta">
+            <li><span> Client </span> Woman Control</li>
+            <li><span> Created by </span> Dmitry Zakharov</li>
+            <li><span> Completed on </span> 21 April 2017</li>
+            <li><span> Skills </span> HTML5 / PHP / CSS3</li>
+            <li><span> Website </span> <a href="#" target="_blank">www.designmadeingermany.de</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--== Single Project End ==-->
+
+  <!--== Project Gallery Start ==-->
+  <section class="white-bg bordered-bg pt-0 pb-0">
+    <div class="container-fluid">
+      <div class="row row-flex flex-center">
+        <div class="col-md-6 col-sm-6">
+          <div class="col-inner all-padding-120">
+            <i class="icon-layers font-40px"></i>
+            <h4 class="font-700 font-30px">Planner</h4>
+            <p class="mt-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6 bg-flex-cover" style="background-image: url(assets/images/portfolio/project-imgs/single-project-img-50.jpg);"></div>
+      </div>
+      <div class="row row-flex flex-center">
+        <div class="col-md-6 col-sm-6 bg-flex-cover" style="background-image: url(assets/images/portfolio/project-imgs/single-project-img-51.jpg);"></div>
+        <div class="col-md-6 col-sm-6">
+          <div class="col-inner all-padding-120">
+            <i class="icon-tools font-40px"></i>
+            <h4 class="font-700 font-30px">Design</h4>
+            <p class="mt-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row row-flex flex-center">
+        <div class="col-md-6 col-sm-6">
+          <div class="col-inner all-padding-120">
+            <i class="icon-globe font-40px"></i>
+            <h4 class="font-700 font-30px">Live</h4>
+            <p class="mt-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6 bg-flex-cover" style="background-image: url(assets/images/portfolio/project-imgs/single-project-img-52.jpg);"></div>
+      </div>
+    </div>
+  </section>
+  <!--== Project Gallery End ==-->
+
+  <!--== Little Info Start ==-->
+  <section class="grey-bg">
+    <div class="container">
+        <div class="row service-box-style-03">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="flipper">
+              <div class="text-center mb-50 main-box">
+                <div class="box-front height-300px white-bg">
+                  <div class="content-wrap">
+                    <i class="ion-erlenmeyer-flask font-40px default-color"></i>
+                    <h4 class="font-600">Concepts</h4>
+                    <p class="font-400 mt-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>
+                </div>
+                <div class="box-back height-300px default-bg">
+                  <div class="content-wrap white-color">
+                    <i class="ion-erlenmeyer-flask font-40px"></i>
+                    <h4 class="font-600">Concepts</h4>
+                    <p class="font-400 mt-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="flipper">
+              <div class="text-center mb-50 main-box">
+                <div class="box-front height-300px white-bg">
+                  <div class="content-wrap">
+                    <i class="ion-coffee font-40px default-color"></i>
+                    <h4 class="font-600">Innovations</h4>
+                    <p class="font-400 mt-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>
+                </div>
+                <div class="box-back height-300px default-bg">
+                  <div class="content-wrap white-color">
+                    <i class="ion-coffee font-40px"></i>
+                    <h4 class="font-600">Innovations</h4>
+                    <p class="font-400 mt-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="flipper">
+              <div class="text-center mb-50 main-box">
+                <div class="box-front height-300px white-bg">
+                  <div class="content-wrap">
+                    <i class="ion-edit font-40px default-color"></i>
+                    <h4 class="font-600">Creativity</h4>
+                    <p class="font-400 mt-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>
+                </div>
+                <div class="box-back height-300px default-bg">
+                  <div class="content-wrap white-color">
+                    <i class="ion-edit font-40px"></i>
+                    <h4 class="font-600">Creativity</h4>
+                    <p class="font-400 mt-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--== Little Info End ==-->
+
+  <!--== Portfolio Nav Start ==-->
+  <section class="white-bg pt-30 pb-30 bordered-bg">
   	<div class="container">
-    	<div class="row white-color">
-        	<div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 display-table" style="height:30px;">
-             	<div class="v-align-middle text-left text-xs-center breadcrumb">
-                   	<!-- Breadcrumb Start -->
-                       	<ul class="text-xs-center white-color">
-                               <li>Features</li>
-                               <li>Blog Posts</li>
-                        </ul>
-                    <!-- Breadcrumb End -->
-                </div>
-             </div>
-             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 display-table text-right text-xs-left xs-mt-10">
-             	<div class="v-align-middle text-right text-xs-center">
-                	<h1 class="text-uppercase mb-0 font-600 font-20px line-height-26 mt-0">Blog Posts</h1>
-                </div>
-             </div>
-           </div>
-        </div>
-  </section>
-  <!--== Page Title End ==-->
-
-  <!--== Blog Posts Style 01 Start ==-->
-  <section class="white-bg">
-    <div class="container">
-    	<div class="row">
-        	<div class="col-sm-8 section-heading">
-              <h4 class="text-uppercase mt-0">Blog Posts Style 01</h4>
-        	</div>
-        </div>
-        <div class="row mt-50">
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="assets/images/post/post-01.jpg" alt=""/> </div>
-              <div class="post-info pt-20 pb-20">
-                <h3><a href="blog-grid.html">How These Different Book Covers Reflect the Design</a></h3>
-                <h6>January 15, 2018</h6>
-                <hr>
-                <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>5 Minutes</span></span> </span> </p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
+        <div class="row portfolio-nav">
+        	<div class="col-md-4 col-sm-4 col-xs-4">
+            	<a class="prev" href="single-project-page-02.html"><span><i class="ion-android-arrow-back"></i>Previous Project</span></a>
             </div>
-          </div>
-          <!--== Post End ==-->
-
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="assets/images/post/post-02.jpg" alt=""/> </div>
-              <div class="post-info pt-20 pb-20">
-                <h3><a href="blog-grid.html">8 Colorful Toys Designed to Spark the Imagination</a></h3>
-                <h6>April 19, 2014</h6>
-                <hr>
-                <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>8 Minutes</span></span> </span> </p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+            	<a class="showall" href="#"><span><i class="ion-android-apps"></i></span></a>
             </div>
-          </div>
-          <!--== Post End ==-->
-
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="assets/images/post/post-03.jpg" alt=""/> </div>
-              <div class="post-info pt-20 pb-20">
-                <h3><a href="blog-grid.html">User Experience Design is one of the most rapidly developing</a></h3>
-                <h6>Febuary 13, 2018</h6>
-                <hr>
-                <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>Just Now</span></span> </span> </p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+            	<a class="next" href="single-project-page-04.html"><span>Next Project<i class="ion-android-arrow-forward"></i></span></a>
             </div>
-          </div>
-          <!--== Post End ==-->
-
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="assets/images/post/post-04.jpg" alt=""/> </div>
-              <div class="post-info pt-20 pb-20">
-                <h3><a href="blog-grid.html">Top 10 Good SEO practices to follow while building new website</a></h3>
-                <h6>November 18, 2016</h6>
-                <hr>
-                <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>15 Minutes</span></span> </span> </p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-          </div>
-          <!--== Post End ==-->
-
         </div>
     </div>
   </section>
-  <!--== Blog Posts Style 01 End ==-->
-
-  <!--== Blog Posts Style 02 Start ==-->
-  <section class="dark-bg">
-    <div class="container">
-    	<div class="row">
-        	<div class="col-sm-8 section-heading white-color">
-              <h4 class="text-uppercase mt-0">Blog Posts Style 02</h4>
-        	</div>
-        </div>
-        <div class="row mt-50">
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="assets/images/post/post-01.jpg" alt=""/> </div>
-              <div class="post-info all-padding-40">
-                <h3><a href="blog-grid.html">How These Different Book Covers Reflect the Design</a></h3>
-                <h6>January 15, 2018</h6>
-                <hr>
-                <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>5 Minutes</span></span> </span> </p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-          </div>
-          <!--== Post End ==-->
-
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="assets/images/post/post-02.jpg" alt=""/> </div>
-              <div class="post-info all-padding-40">
-                <h3><a href="blog-grid.html">8 Colorful Toys Designed to Spark the Imagination</a></h3>
-                <h6>April 19, 2014</h6>
-                <hr>
-                <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>8 Minutes</span></span> </span> </p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-          </div>
-          <!--== Post End ==-->
-
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="assets/images/post/post-03.jpg" alt=""/> </div>
-              <div class="post-info all-padding-40">
-                <h3><a href="blog-grid.html">User Experience Design is one of the most rapidly developing</a></h3>
-                <h6>Febuary 13, 2018</h6>
-                <hr>
-                <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>Just Now</span></span> </span> </p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-          </div>
-          <!--== Post End ==-->
-
-        </div>
-    </div>
-
-  </section>
-  <!--== Blog Posts Style 02 End ==-->
-
-  <!--== Blog Posts Style 03 Start ==-->
-  <section class="grey-bg">
-    <div class="container">
-    	<div class="row">
-        	<div class="col-sm-8 section-heading">
-              <h4 class="text-uppercase mt-0">Blog Posts Style 03</h4>
-        	</div>
-        </div>
-        <div class="row mt-50 blog-style-01">
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="assets/images/post/post-01.jpg" alt=""/> </div>
-              <div class="post-info all-padding-40">
-                <h3><a href="blog-grid.html">How These Different Book Covers Reflect the Design</a></h3>
-                <h6>January 15, 2018</h6>
-                <hr>
-                <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>5 Minutes</span></span> </span> </p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-          </div>
-          <!--== Post End ==-->
-
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="assets/images/post/post-02.jpg" alt=""/> </div>
-              <div class="post-info all-padding-40">
-                <h3><a href="blog-grid.html">8 Colorful Toys Designed to Spark the Imagination</a></h3>
-                <h6>April 19, 2014</h6>
-                <hr>
-                <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>8 Minutes</span></span> </span> </p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-          </div>
-          <!--== Post End ==-->
-
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="assets/images/post/post-03.jpg" alt=""/> </div>
-              <div class="post-info all-padding-40">
-                <h3><a href="blog-grid.html">User Experience Design is one of the most rapidly developing</a></h3>
-                <h6>Febuary 13, 2018</h6>
-                <hr>
-                <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>Just Now</span></span> </span> </p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-          </div>
-          <!--== Post End ==-->
-
-        </div>
-    </div>
-  </section>
-  <!--== Blog Posts Style 03 End ==-->
-
-  <!--== Blog Posts Style 04 Start ==-->
-  <section class="white-bg">
-    <div class="container">
-    	<div class="row">
-        	<div class="col-sm-8 section-heading">
-              <h4 class="text-uppercase mt-0">Blog Posts Style 04</h4>
-        	</div>
-        </div>
-        <div class="row mt-50">
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="post">
-              <div class="post-info pt-20 pb-20">
-                <h3><a href="blog-grid.html">How These Different Book Covers Reflect the Design</a></h3>
-                <h6>January 15, 2018</h6>
-                <hr>
-                <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>5 Minutes</span></span> </span> </p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-          </div>
-          <!--== Post End ==-->
-
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="post">
-              <div class="post-info pt-20 pb-20">
-                <h3><a href="blog-grid.html">8 Colorful Toys Designed to Spark the Imagination</a></h3>
-                <h6>April 19, 2014</h6>
-                <hr>
-                <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>8 Minutes</span></span> </span> </p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-          </div>
-          <!--== Post End ==-->
-
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="post">
-              <div class="post-info pt-20 pb-20">
-                <h3><a href="blog-grid.html">User Experience Design is one of the most rapidly developing</a></h3>
-                <h6>Febuary 13, 2018</h6>
-                <hr>
-                <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>Just Now</span></span> </span> </p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-          </div>
-          <!--== Post End ==-->
-
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="post">
-              <div class="post-info pt-20 pb-20">
-                <h3><a href="blog-grid.html">Top 10 Good SEO practices to follow while building new website</a></h3>
-                <h6>November 18, 2016</h6>
-                <hr>
-                <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>15 Minutes</span></span> </span> </p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-          </div>
-          <!--== Post End ==-->
-
-        </div>
-    </div>
-  </section>
-  <!--== Blog Posts Style 04 End ==-->
-
-  <!--== Blog Posts Style 05 Start ==-->
-  <section class="grey-bg">
-    <div class="container">
-    	<div class="row">
-        	<div class="col-sm-8 section-heading">
-              <h4 class="text-uppercase mt-0">Blog Posts Style 05</h4>
-        	</div>
-        </div>
-        <div class="row mt-50">
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="assets/images/post/post-01.jpg" alt=""/> </div>
-              <div class="post-info all-padding-40">
-                <h6>January 15, 2018</h6>
-                <h3><a href="blog-grid.html">How These Different Book Covers Reflect the Design</a></h3>
-                <hr>
-                <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>5 Minutes</span></span> </span> </p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-          </div>
-          <!--== Post End ==-->
-
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="assets/images/post/post-02.jpg" alt=""/> </div>
-              <div class="post-info all-padding-40">
-                <h6>April 19, 2014</h6>
-                <h3><a href="blog-grid.html">8 Colorful Toys Designed to Spark the Imagination</a></h3>
-                <hr>
-                <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>8 Minutes</span></span> </span> </p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-          </div>
-          <!--== Post End ==-->
-
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="assets/images/post/post-03.jpg" alt=""/> </div>
-              <div class="post-info all-padding-40">
-                <h6>Febuary 13, 2018</h6>
-                <h3><a href="blog-grid.html">User Experience Design is one of the most rapidly developing</a></h3>
-                <hr>
-                <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>Just Now</span></span> </span> </p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-          </div>
-          <!--== Post End ==-->
-        </div>
-    </div>
-
-  </section>
-  <!--== Blog Posts Style 05 End ==-->
+  <!--== Portfolio Nav End ==-->
 
   <!--== Footer Start ==-->
   <footer class="footer dark-block">
